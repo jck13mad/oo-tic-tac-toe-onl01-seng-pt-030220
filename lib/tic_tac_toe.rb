@@ -1,3 +1,8 @@
+require 'pry'
+require_relative '../lib/tic_tac_toe.rb'	require_relative '../lib/tic_tac_toe.rb'
+gra = TicTacToe.new
+gra.play
+
 class TicTacToe
   WIN_COMBINATIONS = [
     [0,1,2],
